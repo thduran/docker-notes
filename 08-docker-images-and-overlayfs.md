@@ -36,11 +36,7 @@ O container é a imagem base + uma **camada** de R/W criada sobre a imagem base.
 ### Copy-on-Write
 * Quando você altera um arquivo da camada base, o Copy-on-Write cria uma cópia modificável na camada de R/W do container.
 
-## 4. Comandos Úteis de Inspeção
-
-Para visualizar a estrutura de camadas na prática:
-
-Ver camadas de uma imagem e detalhá-las
+## 4. Ver camadas de uma imagem e detalhá-las
 ```bash
 docker history nginx
 docker inspect nginx

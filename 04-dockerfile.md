@@ -1,0 +1,1 @@
+ada imagem é feita de camadas empilhadas (read-only) + 1 camada de escrita do container

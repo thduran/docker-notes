@@ -22,7 +22,7 @@ O container é a imagem base + uma **camada** de R/W criada sobre a imagem base.
 2.  **Camada 1:** `apt install curl` (Camada R/O)
 3.  **Camada 2:** Copiar arquivos da aplicação (Camada R/O)
 4.  **Camada 3:** Expor porta (Camada R/O)
-    ***
+    -----------
 5.  **Contêiner:** Camada temporária de R/W (a única camada modificável)
 
 ---
@@ -39,7 +39,7 @@ O container é a imagem base + uma **camada** de R/W criada sobre a imagem base.
 
 Para visualizar a estrutura de camadas na prática:
 
-# Ver camadas de uma imagem e detalhá-las
+### Ver camadas de uma imagem e detalhá-las
 ```bash
 docker history nginx
 docker inspect nginx

@@ -40,7 +40,7 @@ O container é a imagem base + uma **camada** de R/W criada sobre a imagem base.
 
 Para visualizar a estrutura de camadas na prática:
 
-# Ver camadas de uma imagem e detalhá-las
+Ver camadas de uma imagem e detalhá-las
 ```bash
 docker history nginx
 docker inspect nginx
